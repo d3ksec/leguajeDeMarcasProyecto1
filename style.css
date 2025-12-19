@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "Montserrat", sans-serif;
+  --font-accent: "Bebas Neue", cursive;
+  --secundary-color: #ff5733;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+header {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  background-color: #ff00004c;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-primary);
+}
+
+p,
+li, label {
+  font-family: var(--font-secondary);
+}
+
+main {
+  margin-top: 190px;
+  padding: 20px;
+}
+
+a:hover {
+  color: var(--secundary-color);
+}
